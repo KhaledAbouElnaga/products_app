@@ -1,0 +1,34 @@
+name: beggining
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.2
+  get_storage: ^2.1.1
+  dim_loading_dialog: ^1.0.1
+  dio: ^5.8.0+1
+  art_sweetalert: ^0.0.5
+  flutter_circular_progress_indicator: ^0.0.3
+  flutter_svg: ^2.2.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/facebook.svg
+    - assets/images/google.svg
+    - assets/images/notFound.png
+    - assets/fonts/
